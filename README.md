@@ -14,7 +14,6 @@ SELECT ABC.Transactionnumber as Transaksi_ID, ABC.NamaSubscription as NamaSubscr
 FROM form_transactions ABC
 LEFT JOIN subscriptions star on star.NamaSubcription = ABC.NamaSubscription
 = membuat view dengan nama langganan, lalu terdapat 2 kolom didalamnya yaitu Transaksi_ID dan NamaSubscription
-= 
 
 3.Buatlah sebuah antarmuka untuk menampilkan view pada soal 2, kemudian tambahkan tombol untuk mencetaknya kedalam format laporan pdf. Sertakan logo UPH dan nama berserta studentID anda pada header laporan (30)
 = membuat sebuah file baru dalam views yang bernamakan tampilan.blade.php lalu membuat kolom berisikan data-data.
